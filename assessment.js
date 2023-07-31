@@ -41,12 +41,12 @@ assessmentButton.onclick = () => {
   const anchor = document.createElement('a');
   const hrefValue =
   'https://twitter.com/intent/tweet?button_hashtag=' +
-  encodeURIComponent('あなたにおすすめの任天堂ゲーム') +
+  encodeURIComponent('あなたにおすすめのゲーム') +
   '&ref_src=twsrc%5Etfw';
   anchor.setAttribute('href', hrefValue);
   anchor.setAttribute('class', 'twitter-hashtag-button');
   anchor.setAttribute('data-text', result); 
-  anchor.innerText = 'Tweet #あなたにおすすめの任天堂ゲーム';
+  anchor.innerText = 'Tweet #あなたにおすすめのゲーム';
 
   tweetDivision.appendChild(anchor);
   const script = document.createElement('script');
